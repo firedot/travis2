@@ -1,5 +1,6 @@
-language: python
+language: generic
 dist: xenial
 sudo: required
 script:
-- exit 0
+- hello_test.sh
+- bye_test.sh
