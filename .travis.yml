@@ -2,5 +2,5 @@ language: generic
 dist: xenial
 sudo: required
 script:
-- hello_test.sh
-- bye_test.sh
+- bash  hello_test.sh
+- bash  bye_test.sh
